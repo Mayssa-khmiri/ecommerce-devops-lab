@@ -1,6 +1,12 @@
+﻿node_modules/
+target/
+dist/
+.env
+*.log
+.idea/
+.vscode/
 .terraform/
 *.tfstate
-*.tfstate.*
-*.tfvars
-node_modules/
-.env
+*.tfstate.backup
+terraform.tfvars
+*.pem
